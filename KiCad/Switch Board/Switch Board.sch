@@ -1,0 +1,297 @@
+EESchema Schematic File Version 4
+LIBS:Switch Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Studer B67 - VU Switch Board"
+Date "2018-12-20"
+Rev "1.1"
+Comp "Wolfgang Reutz"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "V1.1: Upgrade to KiCad 5"
+$EndDescr
+$Comp
+L wreutz:SA-200 S1
+U 1 1 569D5C4E
+P 4150 2600
+F 0 "S1" H 4350 3049 50  0000 C CNN
+F 1 "SA-200" H 4350 2966 39  0000 C CNN
+F 2 "wreutz:ZFSA200" H 4450 2750 20  0001 L CNN
+F 3 "" H 4150 2600 60  0000 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L wreutz:SA-200 S2
+U 1 1 569D5C9A
+P 7000 2600
+F 0 "S2" H 7000 2650 50  0000 L BNN
+F 1 "SA-200" H 7300 2800 39  0000 L BNN
+F 2 "wreutz:ZFSA200" H 7300 2750 20  0001 L CNN
+F 3 "" H 7000 2600 60  0000 C CNN
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L wreutz:SA-200 S3
+U 1 1 569D5CD3
+P 8700 2600
+F 0 "S3" H 8700 2650 50  0000 L BNN
+F 1 "SA-200" H 9000 2800 39  0000 L BNN
+F 2 "wreutz:ZFSA200" H 9000 2750 20  0001 L CNN
+F 3 "" H 8700 2600 60  0000 C CNN
+	1    8700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L wreutz:SA-200 S1
+U 2 1 569D5CF9
+P 4150 3100
+F 0 "S1" H 4350 3399 50  0000 C CNN
+F 1 "SA-200" H 4350 3316 39  0000 C CNN
+F 2 "wreutz:ZFSA200" H 4450 3250 20  0001 L CNN
+F 3 "" H 4150 3100 60  0000 C CNN
+	2    4150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L wreutz:SA-200 S2
+U 2 1 569D5D28
+P 7000 3100
+F 0 "S2" H 7000 3150 50  0000 L BNN
+F 1 "SA-200" H 7300 3300 39  0000 L BNN
+F 2 "wreutz:ZFSA200" H 7300 3250 20  0001 L CNN
+F 3 "" H 7000 3100 60  0000 C CNN
+	2    7000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L wreutz:SA-200 S3
+U 2 1 569D5D4E
+P 8700 3100
+F 0 "S3" H 8700 3150 50  0000 L BNN
+F 1 "SA-200" H 9000 3300 39  0000 L BNN
+F 2 "wreutz:ZFSA200" H 9000 3250 20  0001 L CNN
+F 3 "" H 8700 3100 60  0000 C CNN
+	2    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 569D5E13
+P 3550 3400
+F 0 "D2" H 3550 3500 50  0000 C CNN
+F 1 "LED" H 3550 3300 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0000 C CNN
+	1    3550 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 569D5E66
+P 5650 3400
+F 0 "D4" H 5650 3500 50  0000 C CNN
+F 1 "LED" H 5650 3300 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 5650 3400 50  0001 C CNN
+F 3 "" H 5650 3400 50  0000 C CNN
+	1    5650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 569D5E99
+P 3150 3750
+F 0 "D1" H 3150 3850 50  0000 C CNN
+F 1 "1N4448" H 3150 3650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 3150 3750 50  0001 C CNN
+F 3 "" H 3150 3750 50  0000 C CNN
+	1    3150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 569D5F04
+P 5250 3750
+F 0 "D3" H 5250 3850 50  0000 C CNN
+F 1 "1N4448" H 5250 3650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 5250 3750 50  0001 C CNN
+F 3 "" H 5250 3750 50  0000 C CNN
+	1    5250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male P1
+U 1 1 569D5F8E
+P 1850 4400
+F 0 "P1" H 1822 4280 50  0000 R CNN
+F 1 "CONN_01X06" H 1822 4371 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1850 4400 50  0001 C CNN
+F 3 "" H 1850 4400 50  0000 C CNN
+	1    1850 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male P2
+U 1 1 569D603C
+P 1850 5200
+F 0 "P2" H 1822 5080 50  0000 R CNN
+F 1 "CONN_01X06" H 1822 5171 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1850 5200 50  0001 C CNN
+F 3 "" H 1850 5200 50  0000 C CNN
+	1    1850 5200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2050 4500 3150 4500
+Wire Wire Line
+	3150 4500 3150 3900
+Wire Wire Line
+	3150 3600 3150 3400
+Wire Wire Line
+	4650 3400 4650 3200
+Wire Wire Line
+	4650 3200 4550 3200
+Wire Wire Line
+	2050 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 2700
+Wire Wire Line
+	4750 2700 4550 2700
+Wire Wire Line
+	2050 4300 5250 4300
+Wire Wire Line
+	5250 4300 5250 3900
+Wire Wire Line
+	2050 4200 5950 4200
+Wire Wire Line
+	5950 4200 5950 3400
+Wire Wire Line
+	5250 3400 5250 3600
+Wire Wire Line
+	3950 4600 2050 4600
+Wire Wire Line
+	3950 2600 3950 3100
+Wire Wire Line
+	3950 3100 4150 3100
+Wire Wire Line
+	3950 2600 4150 2600
+Connection ~ 3950 3100
+Wire Wire Line
+	2050 5200 6800 5200
+Wire Wire Line
+	6800 5200 6800 2600
+Wire Wire Line
+	6800 2600 7000 2600
+Wire Wire Line
+	2050 5100 7800 5100
+Wire Wire Line
+	7800 5100 7800 2500
+Wire Wire Line
+	7800 2500 7400 2500
+Wire Wire Line
+	2050 5000 8500 5000
+Wire Wire Line
+	8500 5000 8500 3100
+Wire Wire Line
+	8500 3100 8700 3100
+Wire Wire Line
+	8400 4900 8400 2600
+Wire Wire Line
+	8400 2600 8700 2600
+Wire Wire Line
+	7400 2700 7700 2700
+Wire Wire Line
+	7700 2700 7700 3400
+Wire Wire Line
+	7700 3400 9300 3400
+Wire Wire Line
+	9300 3400 9300 3000
+Wire Wire Line
+	9300 3000 9100 3000
+Wire Wire Line
+	2050 5400 9400 5400
+Wire Wire Line
+	9400 5400 9400 2700
+Wire Wire Line
+	9400 2700 9100 2700
+Wire Wire Line
+	7000 3100 6900 3100
+Wire Wire Line
+	6900 3100 6900 3500
+Wire Wire Line
+	6900 3500 9500 3500
+Wire Wire Line
+	9500 3500 9500 2500
+Wire Wire Line
+	9500 2500 9100 2500
+Wire Wire Line
+	2050 5300 7500 5300
+Wire Wire Line
+	7500 5300 7500 3200
+Wire Wire Line
+	7500 3200 7400 3200
+Wire Wire Line
+	9200 4100 2050 4100
+Wire Wire Line
+	9200 3200 9200 4100
+Wire Wire Line
+	9200 3200 9100 3200
+Text Notes 4200 1900 0    79   ~ 0
+SAFE
+Text Notes 5450 1900 0    79   ~ 0
+REC
+Text Notes 7050 1900 0    79   ~ 0
+INPUT
+Text Notes 8750 1900 0    79   ~ 0
+REPRO
+Text Notes 3350 1900 0    79   ~ 0
+READY
+Text Notes 3425 3200 0    60   ~ 0
+green
+Text Notes 5575 3196 0    60   ~ 0
+red
+Text Notes 2050 4590 0    47   ~ 0
+blk		+0.0
+Text Notes 2050 4490 0    47   ~ 0
+red		R15
+Text Notes 2050 4390 0    47   ~ 0
+grn		S-Ready 1
+Text Notes 2050 4290 0    47   ~ 0
+red		R14
+Text Notes 2050 4190 0    47   ~ 0
+wht		B-Rec 1
+Text Notes 2050 4090 0    47   ~ 0
+blu		Cal/Uncal Switch
+Text Notes 2050 5390 0    47   ~ 0
+brn		S-Rep 1
+Text Notes 2050 5290 0    47   ~ 0
+blk		S-Inp 1
+Text Notes 2050 5190 0    47   ~ 0
+blu		L1/C1
+Text Notes 2050 5090 0    47   ~ 0
+wht		R11
+Text Notes 2050 4990 0    47   ~ 0
+brn		Out 1
+Text Notes 2050 4890 0    47   ~ 0
+blu		-12.0
+Wire Wire Line
+	2050 4900 8400 4900
+NoConn ~ 4550 2500
+NoConn ~ 4550 3000
+NoConn ~ 7400 3000
+Wire Wire Line
+	3950 3100 3950 4600
+Wire Wire Line
+	3150 3400 3400 3400
+Wire Wire Line
+	3700 3400 4650 3400
+Wire Wire Line
+	5250 3400 5500 3400
+Wire Wire Line
+	5800 3400 5950 3400
+$EndSCHEMATC

@@ -22,21 +22,21 @@ As a goodie there are the 3D Printer files for a tape cutting block in the [misc
 
 If you don't have KiCad installed you can get the schematic files and PCBs as PDFs here:
 
- [Attentuator Board V2 PCB.pdf](schematics_pcbs_PDF/Attentuator Board V2 PCB.pdf) 
+ [Attentuator_Board_V2_PCB.pdf](./schematics_pcbs_PDF/Attentuator_Board_V2_PCB.pdf) 
 
- [Attentuator Board V2 Schematic.pdf](schematics_pcbs_PDF/Attentuator Board V2 Schematic.pdf) 
+ [Attentuator_Board_V2_Schematic.pdf](./schematics_pcbs_PDF/Attentuator_Board_V2_Schematic.pdf) 
 
- [Headphone Board PCB.pdf](schematics_pcbs_PDF/Headphone Board PCB.pdf) 
+ [Headphone_Board_PCB.pdf](./schematics_pcbs_PDF/Headphone_Board_PCB.pdf) 
 
- [Headphone Board Schematic.pdf](schematics_pcbs_PDF/Headphone Board Schematic.pdf) 
+ [Headphone_Board_Schematic.pdf](schematics_pcbs_PDF/Headphone_Board_Schematic.pdf) 
 
- [Overload Detector Card PCB.pdf](schematics_pcbs_PDF/Overload Detector Card PCB.pdf) 
+ [Overload_Detector_Card_PCB.pdf](schematics_pcbs_PDF/Overload_Detector_Card_PCB.pdf) 
 
- [Overload Detector Card Schematic.pdf](schematics_pcbs_PDF/Overload Detector Card Schematic.pdf) 
+ [Overload_Detector_Card_Schematic.pdf](schematics_pcbs_PDF/Overload_Detector_Card_Schematic.pdf) 
 
- [Switch Board PCB.pdf](schematics_pcbs_PDF/Switch Board PCB.pdf) 
+ [Switch_Board_PCB.pdf](schematics_pcbs_PDF/Switch_Board_PCB.pdf) 
 
- [Switch Board Schematic.pdf](schematics_pcbs_PDF/Switch Board Schematic.pdf) 
+ [Switch_Board_Schematic.pdf](schematics_pcbs_PDF/Switch_Board_Schematic.pdf) 
 
 ## PCBs
 

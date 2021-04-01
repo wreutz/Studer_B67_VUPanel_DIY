@@ -17,6 +17,27 @@ For all these parts there are ready made files to send your PCB manufacturer (i 
 The [frontpanel](Frontpanel) folder contains the DXF file i used to laser a prototype frontpanel in 4 mm acrylic and the distance rings for the sleepy eyes switches as .stl files and .gcode for my Velleman K8400 3D printer.
 
 As a goodie there are the 3D Printer files for a tape cutting block in the [misc](misc) folder.
+
+## Schematics and PCBs
+
+If you don't have KiCad installed you can get the schematic files and PCBs as PDFs here:
+
+ [Attentuator Board V2 PCB.pdf](schematics_pcbs_PDF/Attentuator Board V2 PCB.pdf) 
+
+ [Attentuator Board V2 Schematic.pdf](schematics_pcbs_PDF/Attentuator Board V2 Schematic.pdf) 
+
+ [Headphone Board PCB.pdf](schematics_pcbs_PDF/Headphone Board PCB.pdf) 
+
+ [Headphone Board Schematic.pdf](schematics_pcbs_PDF/Headphone Board Schematic.pdf) 
+
+ [Overload Detector Card PCB.pdf](schematics_pcbs_PDF/Overload Detector Card PCB.pdf) 
+
+ [Overload Detector Card Schematic.pdf](schematics_pcbs_PDF/Overload Detector Card Schematic.pdf) 
+
+ [Switch Board PCB.pdf](schematics_pcbs_PDF/Switch Board PCB.pdf) 
+
+ [Switch Board Schematic.pdf](schematics_pcbs_PDF/Switch Board Schematic.pdf) 
+
 ## PCBs
 
 Overload detector card:
